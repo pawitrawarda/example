@@ -1,0 +1,37 @@
+{
+  "name": "gulp-starter",
+  "version": "1.0.0",
+  "description": "basic usage gulp",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Ian Maulana",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.3",
+    "browserify": "^16.2.3",
+    "connect": "^3.6.6",
+    "event-stream": "^4.0.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.6",
+    "merge-stream": "^1.0.1",
+    "serve-static": "^1.13.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp-rename": "^1.4.0"
+  }
+}
